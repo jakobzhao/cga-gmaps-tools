@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Customizing the Logo</title>
+		<script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAAdFlw_bdW12bnMBM3AfjGfBRhcsspRSAfXmPBYuafvRWt8PhWBhQbkkEGHjRQ8o8NVvIvtN10FteoAQ" type="text/javascript"></script>
+		<script type="text/javascript" src="http://cga-gmaps-tools.googlecode.com/svn/trunk/logo/logo.js"></script>
+	  <script type="text/javascript">
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(new GLatLng(29.647640,-82.341242), 16);
+        //adding the default logocontrol
+        map.addControl(new LogoControl({
+        	url: "http://www.ufl.edu",
+        	img: "http://www.geoinformatics.cn/gator.png"	
+        }));
+      }
+    }
+    </script>
+  </head>
+  <body onload="initialize()" onunload="GUnload()">
+    <div id="map_canvas" style="width: 800px; height: 500px"></div>
+  </body>
+</html>
