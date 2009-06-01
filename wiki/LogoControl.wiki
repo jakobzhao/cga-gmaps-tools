@@ -1,0 +1,14 @@
+#labels Featured
+#LogoControl for Google Map.
+
+= Introduction =
+
+An very simply but useful GControl Instance. Users can define their own logo and overlay it onto Google map. What's more, the logo will link to the page you indicate.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
