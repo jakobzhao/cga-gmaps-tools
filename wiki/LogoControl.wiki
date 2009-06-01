@@ -6,5 +6,6 @@
 An very simple but useful GControl instance. Users can define their own logo and overlay them onto Google map. What's more, the logo will link to the page you indicate.
 
 = Example =
-[http://www.geoinformatics.cn/lab/logocontorl/logo-simple.html logo-simple]
-[http://www.geoinformatics.cn/lab/logocontorl/logo-customized.html logo-customized]
+[http://www.geoinformatics.cn/lab/logocontrol/logo-simple.html logo-simple]
+
+[http://www.geoinformatics.cn/lab/logocontrol/logo-customized.html logo-customized]
